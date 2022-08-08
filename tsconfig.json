@@ -1,0 +1,15 @@
+//configuração minima
+{
+  "compilerOptions": {
+    //diretorio onde vamos gravar os arquivos
+    "outDir": "dist/js",
+    //versão que ele vai gerar
+    "target": "ES6",
+    //para n gerar a pasta dist se existir erros no ts
+    "noEmitOnError": true,
+    //Dizer para o typesript nao acetar o tipo any
+    "noImplicitAny": true
+  },
+  //ARQUIVOS QUE QUEREMOS LER
+  "include": ["app/**/*", "app/models/negociacao.ts"]
+}
